@@ -1,0 +1,12 @@
+body { font-family:sans-serif; margin:0; padding:0; background:#f7f7f7; }
+.explorer { display:flex; height:100vh; }
+.sidebar { width:25%; background:#eee; padding:10px; overflow-y:auto; }
+.sidebar ul { list-style:none; padding:0; }
+.sidebar li { padding:10px; margin:5px 0; background:#ddd; border-radius:5px; cursor:pointer; }
+.sidebar li:hover { background:#ccc; }
+.content { flex:1; padding:10px; overflow-y:auto; }
+.file, .folder { padding:10px; margin:5px 0; background:#ddd; border-radius:5px; cursor:pointer; }
+.file:hover, .folder:hover { background:#ccc; }
+.dragging { opacity:0.5; }
+#addFiles { margin-top:10px; padding:10px; border:none; background:#4CAF50; color:white; border-radius:5px; cursor:pointer; }
+#addFiles:hover { background:#45a049; }
