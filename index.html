@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Максимальный Проводник</title>
+<link rel="stylesheet" href="style.css">
+<link rel="manifest" href="manifest.json">
+</head>
+<body>
+
+<div class="explorer">
+  <div class="sidebar">
+    <h3>Папки</h3>
+    <ul id="folderList">
+      <li data-folder="Документы">Документы</li>
+      <li data-folder="Загрузки">Загрузки</li>
+      <li data-folder="Изображения">Изображения</li>
+    </ul>
+  </div>
+  <div class="content">
+    <h3 id="currentFolder">Файлы</h3>
+    <div class="files" id="filesArea"></div>
+    <input type="file" id="folderInput" webkitdirectory multiple style="display:none;">
+    <button id="addFiles">Выбрать папку</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
